@@ -1,0 +1,126 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New';
+}
+/* .main-container{
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    max-width: 1000px;
+} */
+.header-container{
+    background-color: #373737;
+    padding: 10px 10px;
+    display: flex;
+}
+.logo {
+    width: 60px;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: space-around;
+}
+.header-link {
+    margin: 0 7px;
+    text-decoration: none;
+    color:rgb(180, 180, 180);
+    font-size: 25px;
+}
+.header-number {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(180, 180, 180);
+}
+.burger {
+    margin-right: 30px;
+    display: none;
+}
+.burger-img {
+    width: 60px;
+}
+header input {
+    display: none;
+}
+.main {
+    display: flex;
+}
+.aside {
+    box-sizing: border-box;
+    padding: 50px;
+    margin-top: 30px;
+    color: rgb(180, 180, 180);
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1560px;
+    width: 500px;
+    background-image: url(/images/stone-texture-background_1194-8716.avif);
+}
+.section {
+    width: 1200px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.section1 {
+    width: 470px;
+    height: 500px;
+    margin-bottom: 30px;
+    background-size:cover;
+    background-image: url(/images/modern-kitchen-interior-design_23-2150772051.avif);
+}
+.section2 {
+    width: 470px;
+    height: 500px;
+    margin-bottom: 30px;
+    background-size:cover;
+    background-image: url(/images/empty-modern-room-with-furniture_23-2149178335.avif);
+}
+.section3 {
+    width: 470px;
+    height: 500px;
+    margin-bottom: 30px;
+    background-size:cover;
+    background-image: url(/images/kitchen-with-small-space-and-modern-design_23-2150710621.avif);
+}
+.section4 {
+    width: 470px;
+    height: 500px;
+    margin-bottom: 30px;
+    background-size:cover;
+    background-image: url(/images/modern-kitchen-design_176382-994.avif);
+}
+.section5 {
+    width: 470px;
+    height: 500px;
+    margin-bottom: 30px;
+    background-size:cover;
+    background-image: url(/images/beautiful-shot-of-a-modern-house-kitchen-and-dining-room_181624-2870.avif);
+}
+.section6 {
+    width: 470px;
+    height: 500px;
+    margin-bottom: 30px;
+    background-size:cover;
+    background-image: url(/images/render-of-3d-contemporary-kitchen_1048-10509.avif);
+}
+.footer {
+    background-color: #373737;
+    height: 60px;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(180, 180, 180);
+}
+.header-link:hover {
+    color: white;
+}
